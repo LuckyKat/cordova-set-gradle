@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-setminsdk-15"
+        version="1.4.1">
+
+    <name>Set Gradle</name>
+
+    <!-- android -->
+    <platform name="android">
+        <framework src="build-extras-appid.gradle" custom="true" type="gradleReference" />
+    </platform>
+</plugin>
